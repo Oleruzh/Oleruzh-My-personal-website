@@ -1,0 +1,247 @@
+.progect {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  /* Tablet */
+  @media (max-width: 1139px) {
+    padding-top: 40px;
+  }
+  /* Mobile */
+  @media (max-width: 899px) {
+    padding-top: 30px;
+  }
+  /* Mobile-xs */
+  @media (max-width: 767px) {
+    padding-top: 20px;
+  }
+}
+
+.progect__title {
+  text-align: center;
+  margin-bottom: 50px;
+  /* Tablet */
+  @media (max-width: 1139px) {
+    margin-bottom: 40px;
+  }
+  /* Mobile */
+  @media (max-width: 899px) {
+    margin-bottom: 30px;
+  }
+  .title {
+    font-size: 36px;
+    /* Tablet */
+    @media (max-width: 1139px) {
+      font-size: 32px;
+    }
+    /* Mobile-xs */
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
+  }
+
+  .border-grad {
+    background-position: left bottom 5px;
+    background-size: 100% 5px;
+  }
+}
+
+.progect__row {
+  display: flex;
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+.progect__text {
+  text-align: start;
+  /* Mobile-xs */
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+.progect__text-info li:last-child {
+  margin-bottom: 50px;
+  /* Mobile */
+  @media (max-width: 899px) {
+    margin-bottom: 0;
+  }
+}
+
+.progect__text-info {
+  .page-link {
+    font-size: 18px;
+    color: blue;
+    /* Mobile */
+    @media (max-width: 899px) {
+      font-size: 16px;
+    }
+  }
+  li {
+    display: flex;
+    /* Mobile-xs */
+    @media (max-width: 767px) {
+      margin-left: 27px;
+    }
+  }
+  /* Mobile */
+  @media (max-width: 899px) {
+    margin-bottom: 30px;
+  }
+  p {
+    min-width: 50px;
+    /* Tablet */
+    @media (max-width: 1139px) {
+      min-width: 40px;
+    }
+  }
+  img {
+    width: 32px;
+    height: 32px;
+    /* Mobile-xs */
+    @media (max-width: 767px) {
+      display: none;
+    }
+    padding-bottom: 10px;
+  }
+
+  .progect__text-title {
+    margin-bottom: 10px;
+
+    .page-link {
+      font-size: 16px;
+    }
+    li:first-child {
+      margin-bottom: 20px;
+    }
+    .border-grad {
+      background-position: left bottom 1px;
+      background-size: 100% 4px;
+    }
+  }
+
+  page-link {
+    font-size: 20px;
+    cursor: pointer;
+    /* Tablet */
+    @media (max-width: 1139px) {
+      font-size: 16px;
+    }
+  }
+  .page-link:hover {
+    color: red;
+  }
+}
+
+.project__content article {
+  width: 350px;
+  font-size: 16px;
+  margin-bottom: 50px;
+  /* Tablet */
+  @media (max-width: 1139px) {
+    width: 320px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+}
+
+.project__content {
+  .border-grad {
+    background-position: left bottom 1px;
+    background-size: 100% 4px;
+  }
+}
+.project__content-title {
+  margin-bottom: 10px;
+}
+
+.project__details-title {
+  margin-bottom: 10px;
+}
+
+.project__details-title {
+  .border-grad {
+    background-position: left bottom 1px;
+    background-size: 100% 4px;
+  }
+}
+
+.project__list {
+  font-size: 16px;
+  /* Tablet */
+  @media (max-width: 1139px) {
+    font-size: 14px;
+  }
+}
+
+.details-list__item {
+  display: flex;
+  p {
+    min-width: 110px;
+    /* Tablet */
+    @media (max-width: 1139px) {
+      min-width: 100px;
+    }
+    /* Mobile */
+    @media (max-width: 899px) {
+      display: none;
+    }
+    /* Mobile-xs */
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+
+.details-list__item:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.details-list__item:nth-child(2) {
+  margin-bottom: 15px;
+  &.details-list__item:last-child {
+    margin-bottom: 0;
+  }
+  /* Mobile-xs */
+  @media (max-width: 767px) {
+    margin-left: 60px;
+  }
+}
+
+.details-list__item.details-list__item-2:nth-child(2) {
+  /* Mobile-xs */
+  @media (max-width: 767px) {
+    margin-left: 97px;
+  }
+}
+
+.progect__img {
+  margin-bottom: 30px;
+  margin-left: auto;
+  width: 700px;
+  /* Tablet */
+  @media (max-width: 1139px) {
+    width: 520px;
+  }
+  /* Mobile */
+  @media (max-width: 899px) {
+    margin-left: 0;
+  }
+  /* Mobile-xs */
+  @media (max-width: 767px) {
+    width: 290px;
+  }
+}
+
+.nav.nav--portfolio {
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav.nav--portfolio {
+  li {
+    font-size: 22px;
+  }
+}
